@@ -1,0 +1,106 @@
+{
+  "users": [
+    {
+      "id": "42e8",
+      "name": "maikol salas",
+      "userName": "asdsd",
+      "email": "asdasd@gmail.com",
+      "password": "asdsda",
+      "rolId": 1
+    },
+    {
+      "id": "3164",
+      "name": "asdasd",
+      "userName": "asdasdasd",
+      "email": "assdasd@gmail.com",
+      "password": "asdasd",
+      "rolId": 2
+    },
+    {
+      "id": "f371",
+      "name": "asdasd",
+      "userName": "asdasda",
+      "email": "asdg@gmail.com",
+      "password": "asdasd",
+      "rolId": 2
+    },
+    {
+      "id": "857a",
+      "name": "asdasd",
+      "userName": "asdasd",
+      "email": "aasdasdasd@gmail.com",
+      "password": "asdasdasd",
+      "rolId": 2
+    },
+    {
+      "id": "6901",
+      "name": "asdasd",
+      "userName": "asdasdfasdfa",
+      "email": "asssda@gmail.com",
+      "password": "asdas",
+      "rolId": 2
+    },
+    {
+      "id": "3f87",
+      "name": "asdasd",
+      "userName": "asdasdasdasd",
+      "email": "daa@gmail.com",
+      "password": "asdadasd",
+      "rolId": 2
+    },
+    {
+      "id": "e0bc",
+      "name": "asdasd",
+      "userName": "asddas",
+      "email": "asdasssd@gmail.com",
+      "password": "dasda",
+      "rolId": 2
+    },
+    {
+      "id": "96c5",
+      "name": "asdasd",
+      "userName": "asdasdss",
+      "email": "asdasds@gmail.com",
+      "password": "asasd",
+      "rolId": 2
+    }
+  ],
+  "events": [
+    {
+      "id": "9981",
+      "name": "papas",
+      "description": "dasdas",
+      "date": "2025-07-01",
+      "location": "barranquilla",
+      "capacity": 3
+    },
+    {
+      "id": "63d6",
+      "name": "asdas",
+      "description": "asdas",
+      "date": "2025-07-08",
+      "location": "asdasd",
+      "capacity": 4
+    }
+  ],
+  "registrations": [
+    {
+      "id": "6f06",
+      "eventId": 9981,
+      "visitorId": "3164",
+      "date": "2025-07-14"
+    },
+    {
+      "id": "a74f",
+      "eventId": 9981,
+      "visitorId": "f371",
+      "date": "2025-07-14"
+    },
+    {
+      "id": "0936",
+      "eventId": 9981,
+      "visitorId": "857a",
+      "date": "2025-07-14"
+    }
+  ]
+}

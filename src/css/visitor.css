@@ -1,0 +1,54 @@
+/* visitor.css */
+.visitor-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: sans-serif;
+}
+
+.visitor-container h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#event-list li,
+#my-registrations li {
+  background-color: #f4f4f4;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  list-style: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#event-list strong,
+#my-registrations strong {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.btn-register {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  margin-top: 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-register:hover {
+  background-color: #2563eb;
+}
+
+#logout {
+  margin-top: 2rem;
+  display: block;
+  background-color: #ef4444;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

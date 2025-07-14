@@ -1,0 +1,82 @@
+/* admin.css */
+.admin-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: sans-serif;
+}
+
+.admin-container h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#form-event {
+  background-color: #f9fafb;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#form-event input,
+#form-event button {
+  display: block;
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+#form-event button {
+  background-color: #10b981;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#form-event button:hover {
+  background-color: #059669;
+}
+
+#event-list li {
+  background-color: #f3f4f6;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 10px;
+  list-style: none;
+}
+
+.edit-btn,
+.delete-btn {
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #ef4444;
+  color: white;
+}
+
+#logout {
+  margin-top: 2rem;
+  display: block;
+  background-color: #ef4444;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
